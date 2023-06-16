@@ -1,0 +1,41 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.description {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  gap: 20px;
+  padding: 0;
+  text-align: center;
+}
+
+.label {
+  display: flex;
+  gap: 10px;
+}
+
+.quantity {
+  font-weight: 700;
+}
