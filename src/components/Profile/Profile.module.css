@@ -3,11 +3,15 @@
   flex-direction: column;
   padding-top: 20px;
   padding-bottom: 20px;
+  background-color: rgb(223, 229, 227);
 }
 
 .description {
   margin: 0 auto;
   text-align: center;
+  width: 240px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  background-color: #fff;
 }
 
 .avatar {
@@ -25,10 +29,14 @@
 .stats {
   list-style: none;
   display: flex;
+  width: 240px;
+  height: 40px;
   margin: auto;
-  gap: 20px;
+  justify-content: space-around;
   padding: 0;
   text-align: center;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  background-color: rgb(186, 186, 227);
 }
 
 .label {
