@@ -9,14 +9,7 @@ import transactions from '../data/transactions.json';
 
 export const App = () => {
   return (
-    <div
-    // style={{
-    //   height: '100vh',
-    //   display: 'flex',
-    //   justifyContent: 'center',
-    //   color: '#010101',
-    // }}
-    >
+    <div>
       React homework template
       <Profile
         username={user.username}
